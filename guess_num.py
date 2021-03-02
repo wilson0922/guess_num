@@ -2,7 +2,7 @@ import random
 r = random.randint(1,100)
 while True:
 	num = input('請猜一個1~100的數字:')
-	num = int(guess)
+	num = int(num)
 	if num == r:
 		print('終於猜對了')
 		break
